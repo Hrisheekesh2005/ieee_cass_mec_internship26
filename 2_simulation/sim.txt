@@ -1,0 +1,50 @@
+# 2. Simulation
+
+## Overview
+
+Simulation is a crucial step in the Digital IC Design flow, where the RTL design is functionally verified before synthesis. During this stage, the Verilog design and its corresponding testbench were simulated using Cadence Xcelium to ensure the design behaved as expected.
+
+The simulation process helps identify and correct functional errors early in the design cycle, reducing issues in later implementation stages.
+
+---
+
+## Files Included
+
+### Source Code
+
+- `counter.v` – RTL design of the counter.
+- `counter_main.v` – Top-level module.
+- `counter_tb.v` – Testbench for functional verification.
+
+---
+
+## Tools Used
+
+- Verilog HDL
+- Cadence Xcelium
+- SimVision
+
+---
+
+## Workflow
+
+1. Compiled the Verilog source files.
+2. Executed the testbench using Cadence Xcelium.
+3. Observed the output waveforms in SimVision.
+4. Verified the functional correctness of the design.
+5. Confirmed that the RTL was ready for synthesis.
+
+---
+
+## Learning Outcomes
+
+- Understood the importance of functional verification.
+- Learned to develop and execute Verilog testbenches.
+- Gained experience using Cadence Xcelium and SimVision.
+- Verified the RTL design through waveform analysis.
+
+---
+
+## Note
+
+Cadence-generated simulation files such as `.simvision`, `waves.shm`, `xcelium.d`, `xrun.log`, `xrun.history`, and `xrun.key` are not included in this repository, as they are automatically generated during simulation.
