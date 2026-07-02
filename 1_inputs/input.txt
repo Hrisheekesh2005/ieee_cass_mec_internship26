@@ -1,0 +1,50 @@
+# 1. Inputs
+
+## Overview
+
+The **Inputs** stage is the starting point of the Digital IC Design flow. In this stage, the RTL (Register Transfer Level) design was developed using Verilog HDL, and a testbench was created to verify its functionality through simulation before proceeding to synthesis.
+
+The objective was to ensure that the design behaved correctly and was ready for the subsequent stages of the ASIC design flow.
+
+---
+
+## Files Included
+
+### Source Code
+
+- `counter.v` – Verilog module implementing the counter.
+- `counter_main.v` – Top-level module used for simulation.
+- `counter_tb.v` – Testbench used to verify the functionality of the counter.
+
+---
+
+## Tools Used
+
+- Verilog HDL
+- Cadence Xcelium
+- Linux Environment
+
+---
+
+## Workflow
+
+1. Developed the RTL design in Verilog.
+2. Created a testbench to generate input stimuli.
+3. Simulated the design using Cadence Xcelium.
+4. Verified the output waveforms.
+5. Confirmed the design was functionally correct before synthesis.
+
+---
+
+## Learning Outcomes
+
+- Learned to write synthesizable Verilog RTL.
+- Understood the importance of testbenches in functional verification.
+- Performed RTL simulation using Cadence Xcelium.
+- Verified design functionality before synthesis.
+
+---
+
+## Note
+
+Cadence-generated simulation files such as `.simvision`, `waves.shm`, `xcelium.d`, and `xrun` logs are not included in this repository because they are automatically generated during simulation and are not required to reproduce the RTL design.
