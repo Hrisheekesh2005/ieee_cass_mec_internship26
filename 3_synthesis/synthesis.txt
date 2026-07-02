@@ -1,0 +1,56 @@
+# 3. Synthesis
+
+## Overview
+
+Synthesis is the process of transforming the RTL (Register Transfer Level) design into a gate-level netlist while satisfying the specified timing and design constraints. This stage was carried out using **Cadence Genus**, where the Verilog design was synthesized and optimized for area, timing, and power.
+
+---
+
+## Objectives
+
+- Convert RTL design into a gate-level netlist.
+- Apply timing constraints using SDC.
+- Optimize the design for timing, area, and power.
+- Generate synthesis reports for analysis.
+
+---
+
+## Tools Used
+
+- Cadence Genus
+- Verilog HDL
+- Standard Cell Library
+
+---
+
+## Synthesis Flow
+
+1. Read the RTL Verilog files.
+2. Load the technology library.
+3. Apply design constraints.
+4. Perform logic synthesis and optimization.
+5. Generate the synthesized gate-level netlist.
+6. Analyze timing, area, and power reports.
+
+---
+
+## Learning Outcomes
+
+- Understood the RTL-to-gate-level synthesis process.
+- Learned to apply timing constraints using SDC.
+- Gained hands-on experience with Cadence Genus.
+- Analyzed synthesis reports to evaluate design quality.
+
+---
+
+## Contents
+
+This folder will contain:
+
+- Synthesis scripts
+- Constraint files (SDC)
+- Timing, area, and power reports
+- RTL and synthesized schematics
+- Screenshots of synthesis results
+
+> **Note:** Cadence project databases and other confidential files are not included in this repository. Only non-confidential documentation, scripts, and reports will be uploaded.
