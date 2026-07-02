@@ -1,0 +1,55 @@
+# Day 01 - Verilog Fundamentals and Basic Digital Circuits
+
+## Overview
+
+The first day of the internship focused on learning the fundamentals of Verilog HDL and implementing basic combinational logic circuits. These exercises helped in understanding module design, logic operators, continuous assignments, and hierarchical design in Verilog.
+
+---
+
+## Topics Covered
+
+- Introduction to Verilog HDL
+- Module declaration and port definition
+- Logic gates in Verilog
+- Continuous assignment (`assign`)
+- Half Adder
+- Full Adder
+- Basic Multiplexer Design
+
+---
+
+## Implemented Circuits
+
+- AND Gate
+- OR Gate
+- NOT Gate
+- NAND Gate
+- NOR Gate
+- XOR Gate
+- XNOR Gate
+- Half Adder
+- Full Adder
+- 2:1 Multiplexer
+
+---
+
+## Tools Used
+
+- Verilog HDL
+- Cadence Xcelium (Simulation)
+- Linux Environment
+
+---
+
+## Learning Outcomes
+
+- Learned the syntax and structure of Verilog modules.
+- Designed and simulated basic combinational logic circuits.
+- Understood the implementation of Half Adder and Full Adder using logic gates.
+- Gained experience in writing synthesizable RTL code.
+- Verified circuit functionality through simulation.
+
+---
+
+
+> **Note:** Simulation was performed using Cadence Xcelium. Cadence project files are not included in this repository due to confidentiality restrictions.
